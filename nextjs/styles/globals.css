@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-teal {
+    @apply border-2 border-gray-200 focus:outline-none focus:border-teal-600 rounded-md w-full lg:w-1/2 mt-1
+}
+.rounded-button-teal {
+    @apply rounded-full flex items-center justify-center w-8 h-8 text-lg text-gray-100 no-underline uppercase tracking-wider font-medium border-b-2 border-b-teal-500 bg-teal-500 cursor-pointer hover:shadow-2xl hover:bg-teal-700 hover:border-b-teal-700 hover:text-gray-100;
+}
+.button-teal {
+    @apply flex items-center justify-center  rounded-lg text-lg text-gray-100 no-underline uppercase tracking-wider font-medium border-b-2 border-b-teal-500 bg-teal-500 cursor-pointer hover:shadow-2xl hover:bg-teal-700 hover:border-b-teal-700 hover:text-gray-100;
+}
+.container {
+    @apply flex justify-center;
+}
+.container>div{
+    @apply w-full sm:w-1/2 max-w-3xl my-8 px-4
+}
+
+table {
+    @apply w-full table-auto border-spacing-2 border mt-4
+}
+
+thead {
+    @apply text-2xl bg-gray-200 border-b
+}
+
+tr {
+    @apply even:bg-gray-200
+}
+
+td p {
+    @apply text-center
+}
